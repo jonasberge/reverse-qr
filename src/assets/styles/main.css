@@ -1,0 +1,28 @@
+.border {
+	border-style: solid;
+	border-color: green;
+	border-width: 1px;
+	border-radius: 4px;
+}
+
+.content {
+	margin: 0.5em;
+}
+
+.hidden {
+	display: none;
+}
+
+#qrcode {
+	margin: 56px;
+}
+
+#clipboard > .item {
+	display: block;
+	border-style: dotted;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 1px;
+	padding: 4px 8px;
+	margin: 0.5em 0;
+}

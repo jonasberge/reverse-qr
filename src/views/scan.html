@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Reverse QR-Code</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="/assets/styles/main.css" />
+		<!-- TODO: Use a template engine to not repeat yourself. -->
+	</head>
+	<body>
+		<div id="main">
+			<p id="description">
+				Allow the page to read your latest clipboard content, in order to send
+				it to the browser instance of which you scanned the QR-Code.
+			</p>
+			<div class="border">
+				<div class="content" id="clipboard">
+					<!-- Show the latest clipboard item here. -->
+				</div>
+			</div>
+		</div>
+		<script defer src="/assets/scripts/signaling.js"></script>
+		<script defer src="/assets/scripts/scan.js"></script>
+	</body>
+</html>

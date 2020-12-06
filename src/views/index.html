@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Reverse QR-Code</title>
+		<link rel="stylesheet" type="text/css" href="/assets/styles/main.css" />
+	</head>
+	<body>
+		<div id="main">
+			<p id="description">
+				Scan the QR-Code to send your phone's clipboard to this browser.
+			</p>
+			<div class="border">
+				<div class="content" id="clipboard">
+					<!-- Insert clipboard content here. -->
+				</div>
+			</div>
+			<div id="links" class="hidden">
+				<p><a href=""></a></p>
+				<div id="qrcode"></div>
+			</div>
+		</div>
+		<script defer src="/assets/vendor/qrcodejs/qrcode.min.js"></script>
+		<script defer src="/assets/scripts/signaling.js"></script>
+		<script defer src="/assets/scripts/index.js"></script>
+	</body>
+</html>
